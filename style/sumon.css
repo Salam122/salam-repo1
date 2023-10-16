@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 50px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.btn-primary {
+    color: var(--White-Color, #FFF);
+    font-size: 10px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    height: 60px;
+    border-radius: 5px;
+    background: #FD6E0A;
+
+}
+
+/* banner section stylist */
+.banner {
+    margin: 0 50px 0 150px;
+    display: flex;
+    align-items: center;
+}
+
+.name-subtittle {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.name-tittle {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.name-description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cv {
+    width: 200 px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+}
+
+.contact {
+    background: #FFF8F3;
+    color: #FD6E0A;
+    height: 64px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+/* main section  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin: 175px 150px 90px 200px;
+}
+
+.about {
+    background: #FFF8F3;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.about-section {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-descriotion {
+    olor: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about-info-containar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-tital {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-description-p {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* what i do section */
+.what-i-do {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 84px;
+    margin-bottom: 30px;
+}
+
+.what-i-do-section {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 200px;
+}
+
+/* skill of this coding part of the comment */
+.skill {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.skill-info {
+
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skill-title {
+    color: var(--Dark-01, #181818);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-information {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.resume {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 130px 0 113px 0;
+}
+
+.resume-conteiner {
+    display: flex;
+    gap: 71px;
+
+}
+
+.resume-title {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-style {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.msc {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-descirption {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn-resume {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 135px;
+}
+
+/* let connected */
+.jibon {
+    background: #FFF8F3;
+    width: 1600px;
+    margin: auto;
+}
+.connected {
+    display: flex;
+    padding: 0 130px;
+    gap: 100px;
+}
+
+.lets-connect {
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mit-des {
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.lets-message {
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+.connected input, textarea{
+margin-bottom: 24px;
+}
