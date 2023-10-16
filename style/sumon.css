@@ -290,8 +290,10 @@ main {
     font-style: normal;
     font-weight: 700;
 }
-.connected input, textarea{
+.connected input[type = input], input[type = text], textarea{
 margin-bottom: 24px;
+padding-left: 10px;
+width: 100%;
 }
 .connected a{
     text-decoration: none;
