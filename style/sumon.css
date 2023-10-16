@@ -281,6 +281,7 @@ main {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .lets-message {
@@ -291,4 +292,7 @@ main {
 }
 .connected input, textarea{
 margin-bottom: 24px;
+}
+.connected a{
+    text-decoration: none;
 }
